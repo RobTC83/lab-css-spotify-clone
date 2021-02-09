@@ -41,29 +41,132 @@ body {
   .musicForEveryone {
       height: 550px;
       background-image: url("/images/landing.jpg");
-      background-size:cover;
+      background-size:contain;
       object-fit:cover;
       color:white;
-      display:flex;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+
   }
-    
+
+  h1 {
+    font-size:70px;
+    font-weight:bold;
+  }
+  
+  .coverText {
+    font-size:25px;
+  }
         
-.musicForEveryone article{
+  .tres-columnas {
     display:flex;
-    align-items:center;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+
+  #h2W {
+    border-bottom:4px solid #00B172;
+    font-size:40px;
+    font-style:bold;
+  }
+
+  .h3w {
+    color:#00B172;
+    font-size:30px;
+    font-style:bold;
+  }
+
+  .article-title {
+    display:flex;
+    justify-content:center;
+    
+  }
+
+  .col-izq {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
     justify-content:center;
 
-}
+
+  }
+
+  .imgs {
+    width:80px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .col-cent {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+
+  .col-der {
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
   }
   .musicForEveryone h1 {
       font-size: 40px;
       color: white;
-      Font-Size: 30px;
     text-align:center;
-    Margin: 50px 5% 0 5%;
-    padding: 20px;
+
     width: 40%;
   }
+
+.col-izq {
+  width:200px;
+}
+
+.col-cent {
+  width:200px;
+}
+
+.col-der {
+  width:200px;
+}
+
+.h3B {
+  font-size:25px;
+  font-style:bold;
+}
+
+.its {
+  font-size:25px;
+  border-bottom: 3px solid white;
+}
+.greenback {
+  background-color:#00B172;;
+  padding-top:50px;
+  padding-bottom:50px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.center-down img {
+  width:100px;
+}
+
+.right-down img {
+  width:250px;
+}
+
+.itsAsYeezy {
+  width:300px;
+  color:white;
+}
 /*
 Colors:
 
